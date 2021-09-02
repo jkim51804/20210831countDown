@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #41729f;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #274472;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  padding: 30px;
+  color: #c3e0e5;
+}
+
+.day-container,
+.hour-container,
+.minute-container,
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  top: 5vh;
+  border: 3px solid #5885af;
+}
+
+/* [IDEA] change this to a moving clock */
